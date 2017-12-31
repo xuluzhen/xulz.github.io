@@ -8,13 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>相册 | Xulz blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
+<meta property="og:type" content="website">
 <meta property="og:title" content="相册">
 <meta property="og:url" content="http://yoursite.com/photos/index.html">
 <meta property="og:site_name" content="Xulz blog">
-<meta property="og:updated_time" content="2017-12-29T18:06:46.912Z">
+<meta property="og:description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
+<meta property="og:updated_time" content="2017-12-24T21:24:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="相册">
+<meta name="twitter:description" content="Photos 	待续   	图片正在加载中…     (function() {     var loadScript = function(path) {       var $script = document.createElement(&apos;script&apos;)       document.getElementsByTagName(&apos;body&apos;)[0].appendChild($scrip">
   
     <link rel="alternative" href="/atom.xml" title="Xulz blog" type="application/atom+xml">
   
@@ -158,7 +161,7 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="page-" class="article article-type-page " itemscope itemprop="blogPost">
+            <article id="post-photos" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
@@ -174,8 +177,27 @@ var _hmt = _hmt || [];
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><link type="text/css" href="/fancybox/jquery.fancybox.css" rel="stylesheet"></p>
-<div class="instagram"><section class="archives album"><ul class="img-box-ul"></ul></section></div>
+        <link rel="stylesheet" href="./ins.css">
+<div class="photos-btn-wrap">
+	<a class="photos-btn active" href="javascript:void(0)" target="_blank" rel="noopener">Photos</a>
+	<a class="photos-btn" href="#">待续</a>
+</div>
+<div class="instagram itemscope">
+	<a href="https://www.instagram.com/lawlitewang20/" target="_blank" class="open-ins">图片正在加载中…</a>
+</div>
+<script>
+  (function() {
+    var loadScript = function(path) {
+      var $script = document.createElement('script')
+      document.getElementsByTagName('body')[0].appendChild($script)
+      $script.setAttribute('src', path)
+    }
+    setTimeout(function() {
+      loadScript('./ins.js')
+    }, 0)
+  })()
+</script>
+
       
 
       
@@ -294,14 +316,6 @@ var _hmt = _hmt || [];
 </aside>
 
 
-
-  
-  
-  
-
-  
-
-  
 
 
           </div>
